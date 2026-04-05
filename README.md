@@ -33,12 +33,16 @@ const [currentPage, setCurrentPage] = useState(0);
 2 = Page 3
 
 🧠 Step 3: Main Formula (VERY IMPORTANT)
+
 const start = currentPage * PAGE_SIZE;
 const end = start + PAGE_SIZE;
+
 🔍 Let’s visualize
+
 👉 PAGE 1 (currentPage = 0)
 start = 0 * 10 = 0
 end = 0 + 10 = 10
+
 
 👉 Show:
 
