@@ -21,7 +21,9 @@ const noOfPages = Math.ceil(totalProducts / PAGE_SIZE);
 👉 Math.ceil means:
 
 If 101 products → 10.1 → becomes 11 pages
+
 🧠 Step 2: Current Page
+
 const [currentPage, setCurrentPage] = useState(0);
 
 👉 Pages internally start from:
@@ -29,6 +31,7 @@ const [currentPage, setCurrentPage] = useState(0);
 0 = Page 1
 1 = Page 2
 2 = Page 3
+
 🧠 Step 3: Main Formula (VERY IMPORTANT)
 const start = currentPage * PAGE_SIZE;
 const end = start + PAGE_SIZE;
